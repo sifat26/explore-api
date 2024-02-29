@@ -22,7 +22,7 @@ function loaddata2() {
 
         
     }
-    const eul=documentgetElementById('user-mail');
+    const eul=document.getElementById('user-mail');
     for(users of data){
         const eli=document.createElement('li');
         eli.innerText=users.email;
